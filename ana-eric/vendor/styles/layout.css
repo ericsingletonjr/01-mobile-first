@@ -1,0 +1,35 @@
+.heading-group-h1{
+    border: 1px blue dashed;
+    float:left;
+}
+
+nav {
+    border: 1px orange solid;
+}
+.menu-ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  @media only screen and (min-width: 640px) {
+    .menu-ul {
+      display: block;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  }
+
+main {
+    border: 2px green solid;
+}
+
+footer {
+    border: 2px purple solid;
+}
+
+
