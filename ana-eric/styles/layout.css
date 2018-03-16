@@ -1,0 +1,103 @@
+.heading-group-h1 {
+    float: left;
+    width: 90%;
+    margin-left: 25px;
+    /* background-color:lightyellow; */
+}
+nav {
+    clear: left;
+    background-color: lightyellow;
+    width: 100%;
+    height: 130px;
+    margin: 0px auto 20px auto;
+    padding-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    float: right;
+}
+
+ul {
+    background-color: lightyellow;
+}
+
+li {
+    border-bottom: 1px solid lightgray;
+    background-color: lightyellow;
+    margin: 5px 0px;
+}
+
+ul:last-child {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-ul {
+    display: none;
+    list-style: none;
+  }
+  
+.main-nav:hover .menu-ul{
+    display: block;
+    clear: left;
+  }
+.main-nav:hover nav {
+   background-color: black;
+}
+
+  .hamburger {
+    display: block;
+    float:right;
+  }
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+main header {
+    padding-top: 45px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link {
+    color: gray;
+}
+
+.byline, address, time {
+    color: grey;
+    display: inline-block;
+}
+
+footer {
+    border: 2px purple solid;
+}
+
+@media only screen and (min-width: 640px) {
+    .menu-ul {
+        clear: left;
+        display: block;
+    }
+
+    nav {
+        height: 100%;
+    }
+
+    li {
+        display: inline;
+        background-color: lightyellow;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  }
+
+
