@@ -1,6 +1,8 @@
 .heading-group-h1 {
     float: left;
-    margin-left: 25px;  
+    width: 90%;
+    margin-left: 25px;
+    /* background-color:lightyellow; */
 }
 nav {
     clear: left;
@@ -16,6 +18,20 @@ img {
     float: right;
 }
 
+ul {
+    background-color: lightyellow;
+}
+
+li {
+    border-bottom: 1px solid lightgray;
+    background-color: lightyellow;
+    margin: 5px 0px;
+}
+
+ul:last-child {
+    margin-bottom: 20px;
+}
+
 a {
     text-decoration: none;
 }
@@ -27,7 +43,7 @@ a {
   
 .main-nav:hover .menu-ul{
     display: block;
-    clear: left; 
+    clear: left;
   }
 .main-nav:hover nav {
    background-color: black;
@@ -44,7 +60,7 @@ main {
 }
 
 main header {
-    padding-top: 15px;
+    padding-top: 45px;
 }
 
 a {
